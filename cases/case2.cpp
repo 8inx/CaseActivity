@@ -19,12 +19,14 @@ int main()
     int number = 0;
     cout << " This program converts number from 1-9999 to Word format \n\n";
     cout << " Input number\t: ";
-    while(!(cin >> number)||number <= 0 || number > 9999)
+    
+    while(!(cin >> number)|| number <= 0 || number > 9999)
     {
         cin.clear();
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
         cout << " Invalid!\n\n";
         cout << " Input integer\t: ";
+        cin >> number;
     }
 
     int Thousand = number/1000;
