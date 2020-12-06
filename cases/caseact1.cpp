@@ -1,3 +1,4 @@
+/*without the use of arrays*/
 #include<iostream>
 #include<string>
 #include<limits>
