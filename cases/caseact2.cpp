@@ -7,6 +7,7 @@ using namespace std;
 
 int main()
 {
+    int number;
     cout << " This program converts number from 1-9999 to Word format \n\n";
     cout << " Input number\t: ";
     
